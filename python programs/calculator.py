@@ -1,3 +1,6 @@
 a=10
 b=20
-print("sum:",a+b)
+sum=a+b
+product=a*b
+print("sum=",sum)
+print("product=",product)
