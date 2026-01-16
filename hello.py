@@ -1,1 +1,1 @@
-print("hello python")
+print("%d",6+5)
