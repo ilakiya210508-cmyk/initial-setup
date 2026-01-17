@@ -1,0 +1,18 @@
+
+x = 8
+y = 2
+
+temp = x
+x = y
+y = temp
+
+print('The value of x after swapping: {}'.format(x))
+
+print('The value of y after swapping: {}'.format(y))
+
+
+output 
+
+   The value of x after swapping: 2
+   The value of y after swapping: 8
+
