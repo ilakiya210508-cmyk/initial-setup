@@ -1,0 +1,29 @@
+For positive numbers
+
+num = 5
+
+num_sqrt = num ** 0.5
+
+print('The square root of %0.3f is %0.3f'%(num ,num_sqrt))
+
+output
+
+   The square root of 5.000 is 2.236
+
+
+
+ For real or complex numbers
+
+import cmath
+
+num = 3+8j
+
+num_sqrt = cmath.sqrt(num)
+
+print('The square root of {0} is {1:0.3f}+{2:0.3f}j'.format(num ,num_sqrt.real,num_sqrt.imag))
+
+output
+
+    The square root of (3+8j) is 2.402+1.665j
+
+
