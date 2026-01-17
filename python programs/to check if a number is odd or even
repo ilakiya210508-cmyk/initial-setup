@@ -1,0 +1,13 @@
+num = int(input("Enter: "))
+
+if (num % 2) == 0:
+   print("{} is Even".format(num))
+
+else:
+   print("{} is Odd".format(num))
+
+
+output
+
+   Enter: 5
+   5 is Odd
