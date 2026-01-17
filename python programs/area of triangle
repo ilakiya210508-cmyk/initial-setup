@@ -1,0 +1,14 @@
+
+a = 6
+b = 8
+c = 10
+
+s = (a + b + c) / 2
+
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
+
+print('The area of the triangle is %0.2f' %area)
+
+output 
+
+    The area of the triangle is 24.0
