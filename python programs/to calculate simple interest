@@ -1,0 +1,17 @@
+P = float(input("Enter principal amount: "))
+
+R = float(input("Enter rate of interest: "))
+
+T = float(input("Enter time in years: "))
+
+SI = (P * R * T) / 100
+
+print("Simple Interest is:",round(SI,2))
+
+
+output
+
+   Enter principal amount: 4.6
+   Enter rate of interest: 43.4
+   Enter time in years: 3.4
+   Simple Interest is: 6.79
