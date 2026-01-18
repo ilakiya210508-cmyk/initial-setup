@@ -1,0 +1,14 @@
+text = input("Enter text: ")
+vowels = 0
+
+for ch in text:
+    if ch in "aeiouAEIOU":
+        vowels += 1
+
+print("Vowels:", vowels)
+
+
+output
+
+    Enter text: programming
+    Vowels: 3
