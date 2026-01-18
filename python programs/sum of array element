@@ -1,0 +1,12 @@
+arr = [5, 10, 15]
+total = 0
+
+for i in arr:
+    total += i
+
+print("Sum:", total)
+
+
+output
+
+   Sum: 30
