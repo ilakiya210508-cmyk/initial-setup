@@ -1,0 +1,12 @@
+sentence = input("Enter sentence: ")
+
+word = input("Enter word: ")
+
+print("Frequency:", sentence.count(word))
+
+
+output
+
+    Enter sentence: programming
+    Enter word: m
+    Frequency: 2
