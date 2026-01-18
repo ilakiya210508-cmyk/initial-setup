@@ -1,0 +1,12 @@
+items = [10, 20, 30, 40, 50]
+count = 0
+
+for i in items:
+    count += 1
+
+print("Total elements:", count)
+
+
+output
+
+  Total elements: 5
