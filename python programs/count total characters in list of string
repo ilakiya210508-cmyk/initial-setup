@@ -1,0 +1,12 @@
+words = ["hi", "hello", "bye"]
+total = 0
+
+for w in words:
+    total += len(w)
+
+print("Total characters:", total)
+
+
+output
+
+   Total characters: 10
